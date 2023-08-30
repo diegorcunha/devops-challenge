@@ -27,3 +27,7 @@ variable "ecr_repos" {
   type        = list(string)
   default     = ["backend"]
 }
+
+variable "app_services" {
+  type = list(string)
+}
