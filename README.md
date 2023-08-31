@@ -58,3 +58,15 @@ The cluster and the task definition was create a simple example to run the appli
 * ECS Cluster
 * ECS Task definition.
 
+### Run the Terraform Code
+
+To run the terraform code, in the `terraform/aws` folder you will need to run first:
+
+```
+    terraform init
+```
+and them
+
+```
+    terraform plan -var-file=env/dev.tfvars 
+```
